@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,11 +35,13 @@ header ul {
 
 .top {
   background-color: #1f2937;
+  height: 450px;
 }
 
 .img {
   width: 400px;
   padding: 15px;
+  margin-left: 10px;
   height: 180px;
   background-color: rgb(106, 106, 108);
   display: flex;
@@ -51,6 +53,7 @@ header ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 10px;
 }
 
 .top h1 {
@@ -61,7 +64,8 @@ header ul {
 }
 
 .awesome {
-  max-width: 360px;
+  max-width: 450px;
+  margin-left: 5%;
 }
 
 .subtext {
@@ -82,4 +86,34 @@ button {
   padding: 7px;
   width: 100px;
   font-size: 18px;
+}
+
+.random {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+}
+
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.info p {
+  color: #1f2937;
+  flex-wrap: wrap;
+}
+
+.info {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
 }
