@@ -105,6 +105,8 @@ button {
 .info p {
   color: #1f2937;
   flex-wrap: wrap;
+  max-width: 150px;
+  text-align: center;
 }
 
 .info {
@@ -116,4 +118,30 @@ button {
 
 .bottom {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-div {
+  background-color: #e5e7eb;
+  margin-top: 100px;
+}
+
+.quote-div p {
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.quote {
+  font-style: italic;
+  max-width: 500px;
+  display: flex;
+}
+
+footer {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
