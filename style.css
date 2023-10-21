@@ -125,9 +125,19 @@ button {
 .quote-div {
   background-color: #e5e7eb;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-div p {
+  margin-left: 230px;
+  font-weight: bold;
+}
+
+.quote-div p,
+h3 {
   font-size: 20px;
   color: #1f2937;
 }
@@ -135,7 +145,7 @@ button {
 .quote {
   font-style: italic;
   max-width: 500px;
-  display: flex;
+  justify-content: center;
 }
 
 footer {
