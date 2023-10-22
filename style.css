@@ -20,6 +20,7 @@ header {
 }
 
 .top h2,
+h4,
 p,
 a {
   color: white;
@@ -71,6 +72,7 @@ header ul {
 .subtext {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 10px;
 }
 
 .awesome button {
@@ -129,6 +131,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 270px;
 }
 
 .quote-div p {
@@ -146,6 +149,49 @@ h3 {
   font-style: italic;
   max-width: 500px;
   justify-content: center;
+}
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-div {
+  background-color: #3882f6;
+  height: 80px;
+  width: 900px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h4 {
+  font-size: 1.2rem;
+}
+
+.text h4,
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.action-div button {
+  height: 40px;
+  width: 120px;
+  background-color: #3882f6;
+  border: solid 3px white;
+  margin-top: 20px;
 }
 
 footer {
